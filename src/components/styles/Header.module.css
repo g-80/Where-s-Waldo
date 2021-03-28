@@ -1,0 +1,23 @@
+.header {
+  background-color: #7e796a;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.7rem;
+  min-height: 3.5rem;
+  border-bottom: 2px solid #302e28;
+}
+.time {
+  min-width: 185px;
+}
+
+@media (max-width: 700px) {
+  .header {
+    font-size: 0.6rem;
+    min-height: 2rem;
+    border-bottom: 1px solid #302e28;
+  }
+  .time {
+    min-width: max-content;
+  }
+}

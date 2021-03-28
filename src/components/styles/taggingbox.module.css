@@ -1,0 +1,49 @@
+:root {
+  --box-length: 3vw;
+}
+.container {
+  z-index: 100;
+  position: absolute;
+}
+.taggingbox {
+  height: var(--box-length);
+  width: var(--box-length);
+  border: 3px solid rgb(255, 86, 86);
+  outline: 1px solid rgb(0, 0, 0);
+}
+
+.charsList {
+  min-width: 40px;
+  width: 2.6vw;
+  padding: 0;
+  background-color: #7e796a;
+  list-style: none;
+  margin-left: 2.4em;
+  border-radius: 4px;
+  border: 1px solid black;
+}
+
+.char {
+  font-size: 0.65vw;
+  cursor: pointer;
+  padding: 8px;
+}
+
+@media (max-width: 900px) {
+  .char {
+    font-size: 0.5em;
+  }
+}
+.char:hover {
+  color: #ece1c3;
+}
+
+.message {
+  border-radius: 4px;
+  border: 1px solid black;
+  min-width: max-content;
+  background-color: #7e796a;
+  position: absolute;
+  top: -50px;
+  padding: 10px 10px;
+}

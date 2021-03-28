@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #a1afa0;
+  font-family: "Balsamiq Sans", cursive;
+  color: rgb(247, 247, 247);
+}
+
+.btn {
+  border: 0;
+  font-family: inherit;
+  min-width: 80px;
+  min-height: 40px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  padding: 0.7em 0;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  color: rgb(247, 247, 247);
+  background-color: rgb(187, 56, 60);
+}
+
+.btn-primary:hover {
+  background-color: rgb(209, 83, 87);
+}
+
+.btn-secondary {
+  color: rgb(187, 56, 60);
+  background-color: rgb(247, 247, 247);
+}
+
+.btn-secondary:hover {
+  color: rgb(231, 94, 98);
+  background-color: rgb(255, 255, 255);
+}

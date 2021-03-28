@@ -1,0 +1,13 @@
+.mainWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.imageContainer {
+  margin-top: 8px;
+  width: 95vw;
+}
+.image {
+  border: 2px solid black;
+  width: 100%;
+}
