@@ -7,7 +7,7 @@ import Leaderboard from "./components/Leaderboard";
 import "./App.css";
 
 function App() {
-  const [page, setPage] = useState("image");
+  const [page, setPage] = useState("start");
 
   const characters = ["waldo", "odlaw", "wizard", "wenda", "woof"];
   const [remainingChars, setRemainingChars] = useState(characters);

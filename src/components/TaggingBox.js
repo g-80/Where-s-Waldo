@@ -49,8 +49,8 @@ const TaggingBox = ({
     <div
       className={styles.container}
       style={{
-        top: `calc(${yPos}px - 2.3rem)`,
-        left: `calc(${xPos}px - 2.3rem)`,
+        top: `calc(${yPos}px + 3vh)`,
+        left: `calc(${xPos}px + 0.6vw)`,
       }}
     >
       {message && <span className={styles.message}>{message}</span>}

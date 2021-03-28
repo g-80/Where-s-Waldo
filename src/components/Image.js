@@ -17,10 +17,11 @@ const Image = ({ remainingChars, setRemainingChars }) => {
       setToggleBox(false);
     } else {
       setToggleBox(true);
-      const { pageX: x, pageY: y } = e;
+      const { offsetX: x, offsetY: y } = e.nativeEvent;
       const xRelative = x / e.target.width;
       const yRelative = y / e.target.height;
       setClickCoords({ x, y, xRelative, yRelative });
+      // console.log("x=", xRelative, "y=", yRelative);
     }
   };
 
@@ -38,6 +39,9 @@ const Image = ({ remainingChars, setRemainingChars }) => {
       )}
       <div className={styles.imageContainer} onClick={handleClick}>
         <img src={image} alt="Find Waldo" className={styles.image}></img>
+      </div>
+      <div className={styles.bottomSpace}>
+        {/* bottom spacing for tagging box menu */}
       </div>
     </div>
   );

@@ -29,11 +29,6 @@
   padding: 8px;
 }
 
-@media (max-width: 900px) {
-  .char {
-    font-size: 0.5em;
-  }
-}
 .char:hover {
   color: #ece1c3;
 }
@@ -46,4 +41,11 @@
   position: absolute;
   top: -50px;
   padding: 10px 10px;
+}
+
+@media (max-width: 900px) {
+  .char,
+  .message {
+    font-size: 0.5em;
+  }
 }
